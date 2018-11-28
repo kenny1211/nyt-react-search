@@ -1,5 +1,5 @@
 {
-  "name": "google-books",
+  "name": "google-books-search",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -14,15 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhadev/google-books.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jhadev/google-books/issues"
-  },
-  "homepage": "https://github.com/jhadev/google-books#readme",
+  "homepage": "",
   "devDependencies": {
     "concurrently": "^4.0.1",
     "nodemon": "^1.18.6"

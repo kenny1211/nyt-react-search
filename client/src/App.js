@@ -44,7 +44,7 @@ const styles = theme => ({
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth,
-    background: "white"
+    background: "aquamarine"
   },
   content: {
     flexGrow: 1,
@@ -69,7 +69,7 @@ class App extends Component {
           return {
             bookId: book.id,
             title: book.volumeInfo.title,
-            authors: book.volumeInfo.authors || "Josh Appel",
+            authors: book.volumeInfo.authors || "Alex Rosenkranz",
             description: (book.searchInfo) ? book.searchInfo.textSnippet : "No Description",
             link: book.volumeInfo.infoLink,
             image: (book.volumeInfo.imageLinks) ? book.volumeInfo.imageLinks.thumbnail : "https://via.placeholder.com/100x250"
